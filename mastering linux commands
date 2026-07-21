@@ -1,0 +1,19 @@
+ls = list
+ -a = shows all files, including hidden ones
+ . =  represents the current directory. It's a shortcut you can use in commands.
+..  = represents the parent directory (the directory one level up). This is useful for navigation.
+-h = stands for "human-readable". It converts the file sizes into a format that's easier for humans to understand.
+
+linux commands that are combine togther do not yave to be in a speific order to work ls -alh, ls -hal, ls -lha  are all the same 
+-t = sorting by most recent modified 
+ r = option reverses the sorting order.
+ -S: Sort by file size, largest first
+-X: Sort alphabetically by file extension
+-v: Sort by version (useful for numbered files)
+| = pipe connects commands together
+The --color option in ls can take three values:
+
+never: Never use colors (what we just tried)
+always: Always use colors, even when sending output to a file or another command
+auto: Use colors when outputting directly to the terminal, but not when sending output elsewhere
+Usin
