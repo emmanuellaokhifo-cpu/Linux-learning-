@@ -16,4 +16,14 @@ The --color option in ls can take three values:
 never: Never use colors (what we just tried)
 always: Always use colors, even when sending output to a file or another command
 auto: Use colors when outputting directly to the terminal, but not when sending output elsewhere
-Usin
+
+6th of august 2026
+
+pwd = print working directory, shows current location regardless of what files or directories are in the location
+/ = root of linux system tree
+/home/labex/project = project is folder, which is inside labex, which is inside home.
+In a typical Linux system, you might start in your home directory 
+symlink = shortcut link to another directory 
+
+-L (logical): Shows the path you used to reach the current directory, keeping symbolic link names in the result
+-P (physical): Shows the actual directory on disk after resolving symbolic links
