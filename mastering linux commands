@@ -27,3 +27,23 @@ symlink = shortcut link to another directory
 
 -L (logical): Shows the path you used to reach the current directory, keeping symbolic link names in the result
 -P (physical): Shows the actual directory on disk after resolving symbolic links
+
+22nd of august 2026 
+Linux cd command directory changing
+cd = change directory
+cd ~ = takeme to home directory 
+cd .. = moves up one level from your current directory.
+cd - = take me back to where i was
+etc directory is an important system directory in Linux that contains configuration files
+cd /: This takes you to the root directory of the entire file system.
+cd $HOME: This is another way to go to your home directory.
+
+Linux command mkdir 
+The -p option (think "parents") tells mkdir to create any missing parent directories along the way. Without -p, you'd get an error if any part of the path didn't exist yet.
+
+To see this new structure, use the ls command with the -R option, which shows the contents recursively:
+The -v option stands for "verbose". It tells mkdir to print a message for each directory it creates.
+
+The tree command displays the directory structure in a tree-like format, which is both informative and visually appealing.
+If you want to see more details of your files  including the permissions we set, you can use the -p option with tree:
+
