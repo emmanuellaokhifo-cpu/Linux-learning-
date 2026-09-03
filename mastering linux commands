@@ -64,5 +64,12 @@ This allows you to copy multiple files without listing them individually.
 -l: Create hard links instead of copying files
 -s: Create symbolic links instead of copying files
 
+3rd of september 
+Linux mv Command: File Moving and Renaming"
+The mv command can also be used to rename files.
+* is a wildcard that means "match any characters"
+-f: Force move without prompting for confirmation
+-n: Do not overwrite an existing file
+-v: Verbose mode, explaining what is being done
 
 
