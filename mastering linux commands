@@ -72,4 +72,12 @@ The mv command can also be used to rename files.
 -n: Do not overwrite an existing file
 -v: Verbose mode, explaining what is being done
 
-
+7th of september 
+Linux rm command file removing 
+rm permanent deletion of files be careful when you use it 
+removing multiple files at the same time 
+rm -v *.filetypr removes all the file types of this file and lists them as they delete 
+every time i am deleting a file i willl use -v to be extra cautious 
+rm -r to remove a directory and its contents 
+whe ever permission is denied when removing a file use sudo rm 
+use rm -i( asks if thats the correct file to be deleted) and -v(lists whatever file was deleted) whenever deleting file to be extra cautious 
