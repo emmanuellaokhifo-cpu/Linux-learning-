@@ -82,4 +82,16 @@ rm -r to remove a directory and its contents
 whe ever permission is denied when removing a file use sudo rm 
 use rm -i( asks if thats the correct file to be deleted) and -v(lists whatever file was deleted) whenever deleting file to be extra cautious 
 
-Linux 
+12th of september 
+File concatenating 
+The cat command is short for "concatenate", but it's often used to simply display file contents, combine files 
+> = output redirection taking the output of a command ad and sending it into a file 
+The -n option tells cat to number all output lines. This can be very useful when you need to refer to specific lines in a file.
+The -E option tells cat to display a $ at the end of each line. This makes it easy to see where each line ends, which can be particularly useful when dealing with formatting issues.
+-A: Show all non-printing characters (equivalent to -vET)
+-b: Number non-blank output lines
+-s: Suppress repeated empty output lines
+-T: Display TAB characters as ^I
+-v: Use ^ and M- notation, except for LFD and TAB
+
+
