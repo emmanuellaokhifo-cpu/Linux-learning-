@@ -94,4 +94,19 @@ The -E option tells cat to display a $ at the end of each line. This makes it ea
 -T: Display TAB characters as ^I
 -v: Use ^ and M- notation, except for LFD and TAB
 
+3rd of October 
+More command - File scrolling 
+more then file 
+space bar - to move down the file 
+b to go back to page 1
+q to quit 
+more + line number then file returns you to that line of the file 
+more - number then file = customise how many files you want to be displayed at once 
+more +/"date" then file = search for the files date by matching patterns 
 
+-d: Displays helpful prompts
+-f: Counts logical lines instead of screen lines
+-p: Clears the screen before displaying the page
+-c: Repaints the screen instead of scrolling
+-s: Squeezes multiple blank lines into one
+-u: Suppresses underlining
