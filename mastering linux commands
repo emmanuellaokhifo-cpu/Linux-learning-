@@ -129,4 +129,34 @@ less +/pattern:.pattern file
 -S: Chop long lines instead of wrapping them
 +F: Keep reading the file, displaying new contents as they appear (similar to tail -f)
 
+6th of october 
+Linux head commad: file beginning display
+head file
+By default, head displays the first 10 lines of the file. Each line in this log represents a single request to the web server,
+showing the IP address, timestamp, HTTP method, requested resource, status code, and response size.
+head -n number file name shows the first 5 lines of the file you can change the number depending on how much you want to see.
+-n = how many lines to display 
+
+Examining multiple files 
+using head to view multiple files at once 
+head file file = then head splits the outputs
+
+Using head with pipes 
+The cut -d '"' -f2 file = portion splits each line at the quotation marks and selects the second field, 
+which contains the HTTP request. The | sends that output to head -n 3, which displays only its first three lines.
+
+Investigating with Head and grep 
+you will combine head with grep to search for a specific pattern in the log.
+grep "pattern" file | head -n 3
+
+Exploring large files with head 
+ls -lh "file"  displays information about the file "file", including its size.
+-c: Display the first few bytes of a file instead of lines.
+-q: Suppress headers when examining multiple files.
+-v: Always display headers when examining multiple files.
+
+
+
+
+
 
